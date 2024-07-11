@@ -48,10 +48,14 @@ input {
   background-color: #319435;
 }
 
-#total {
+.total {
   font-size: 24px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.hide {
+  display: none;
 }
 
 .error {
