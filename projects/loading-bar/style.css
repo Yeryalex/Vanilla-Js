@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: black;
+  color: lightgray;
+  font-family: cursive;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  position: relative;
+}
+
+.loading-front {
+  height: 8px;
+  position: absolute;
+  background-color: orangered;
+  width: 0%;
+  border: none;
+  border-radius: 5px;
+}
+.loading-back {
+  height: 8px;
+  position: absolute;
+  background-color: lightgrey;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.counter {
+    font-size: 50px;
+}
