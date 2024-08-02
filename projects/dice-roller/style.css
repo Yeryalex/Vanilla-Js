@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(166, 75, 75);
+}
+
+.dice {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
