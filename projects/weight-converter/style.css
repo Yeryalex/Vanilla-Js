@@ -22,11 +22,11 @@ h1 {
 
 .container {
   padding: 20px;
+  border-radius: 16px;
   background-color: rgba(255, 255, 255, 0.315);
   box-shadow: 2px 2px 10px rgb(129, 128, 128);
   width: 85%;
   max-width: 450px;
-  padding: 20px;
 }
 
 .input-container {
@@ -63,14 +63,14 @@ h1 {
 }
 
 .calculate {
-  color: rgb(4, 27, 19);
-  background-color: rgb(126, 181, 234);
+  color: rgb(3, 8, 36);
+  background-color: rgb(78, 156, 228);
   border-radius: 5px;
   padding: 10px;
   font-size: 16px;
-  transition: background 0.05s linear;
+  transition: background 0.09s linear;
 }
 
 .calculate:hover {
-  background-color: rgb(78, 156, 228);
+  background-color: rgb(126, 181, 234);
 }
