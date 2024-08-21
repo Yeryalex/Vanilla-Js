@@ -8,16 +8,19 @@ calculate.addEventListener("click", () => {
 
 function parseInput(poundsInput) {
   if (nonNumeric(poundsInput)) {
-    result.innerHTML = `<p>Wrong value</p>`;
-    return 0;
+    return null;
   }
-  let pounds = parseFloat(poundsInput.value);
+  let pounds = parseFloat(poundsInput);
   let Kg = (pounds * 0.453592).toFixed(2);
   return Kg;
 }
 
 function showResult() {
-  let valueKg = parseInput(poundsInput);
+  let valueKg = parseInput(poundsInput.value);
+  if (valueKg === null) {
+    result.innerHTML = `<p>Pounds must be numeric. Please, insert a correct value</p>`;
+    return 0;
+  }
   result.innerHTML = `<p>Your weight in Kg is: ${valueKg}</p>`;
 }
 
